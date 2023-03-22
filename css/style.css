@@ -1,0 +1,136 @@
+* {
+    font-family: 'Poppins', Helvetica;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+#logo {
+    width: 40px;
+    margin: 0px 30px 0px 10px;
+}
+
+nav {
+    width: 80%;
+    position: sticky;
+    top: 0px;
+    margin: auto;
+}
+
+li {
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    text-align: center;
+    position: relative;
+    padding: 10px;
+  }
+
+.nav_links a {
+    display: block;
+    padding: 10px 0px;
+    border-radius: 10px;
+    background-color: #ebcb63	;
+    margin: 10px;
+}
+
+.nav_links a:visited {
+    color: #292221;
+}
+
+.nav_links a:hover, a:focus{
+    background-color: #13AF5E;
+    color: #000000;
+    text-decoration: wavy underline;
+  }
+
+
+a.skip{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }
+  
+  a.skip:focus{
+    top:20px;
+    color: black;
+    text-decoration-style: solid;
+  }
+  
+  *:focus{
+    border: 2px solid #13AF5E;
+    border-radius: 10px;
+    color: #000000;
+  }
+  
+body {
+    background-color: #fffacd;
+}
+
+main {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    display: inline;
+}
+
+hr {
+    border: 1px solid #ebcb63;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 28px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.tops {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 30%;
+    margin: auto;
+    margin-top: 70px;
+    text-align: left;
+}
+
+.topimg { 
+    grid-area: 1 / 1 / 3 / 2; 
+    width: 100%;
+    padding-right: 40px;
+}
+.textbox { 
+    grid-area: 1 / 2 / 3 / 3; 
+    background-color: #ebcb63;
+    border-radius: 10px;
+    padding: 20px;
+}
+.toptext {
+    margin-top: 20px;
+    font-size: 18px;
+}
