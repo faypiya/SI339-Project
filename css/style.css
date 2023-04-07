@@ -4,7 +4,7 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     padding: 10px;
     flex-direction: column;
   }
@@ -17,28 +17,25 @@ header {
 nav {
     width: 100%;
     position: sticky;
-    top: 0px;
-    margin: auto;    
+    justify-content: center;
 }
 
 li {
-    width: 20%;
-    text-align: center;
+    display: flex;
+    box-sizing: border-box;
     position: relative;
     margin: 0px 30px 0px 10px;
-
 }
 
 nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
     list-style: none;
-    display: flex;
+    align-items: center;
     flex-direction: column;
 }
   
 .nav_links a:visited {
     color: #292221;
+
 }
 
 .nav_links {
@@ -47,8 +44,6 @@ nav ul {
     justify-content: center;
     padding: 0;
     margin: 0;
-    list-style: none;
-    width: 100%;
 }
 
 .nav_links li {
@@ -65,7 +60,6 @@ nav ul {
     margin: 10px;
     width: 90%;
     text-decoration: none;
-    max-width: 375px;
 }
 
 .nav_links li.active a, a:hover, a:focus {
