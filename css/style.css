@@ -2,29 +2,32 @@
     font-family: 'Poppins', Helvetica;
 }
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
   }
 
 #logo {
-    width: 40px;
-    margin: 0px 30px 10px 30px;
+  width: 40px;
+  margin: 0px 30px 10px 30px;
 }
 
 nav {
-    width: 100%;
-    position: sticky;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  position: sticky;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 li {
-    display: flex;
-    box-sizing: border-box;
-    position: relative;
-    margin: 0px 30px 0px 10px;
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  align-items: center;
 }
 
 nav ul {
@@ -54,7 +57,7 @@ nav ul {
     display: block;
     text-align: center;
     font-size: 16px;
-    padding: 10px;
+    padding: 10px 100px;
     border-radius: 10px;
     background-color: #ebcb63;
     margin: 10px;
