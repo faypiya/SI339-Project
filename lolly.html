@@ -27,14 +27,115 @@
     <hr>
     <h1 id="skip">Lolly</h1>
     <br>
-    <div class="gallery">
-        <img src="images/lolly1.png" alt="Lolly stomping around and looking angry">
-        <img src="images/lolly2.jpeg" alt="Lolly drinking lemonade">
-        <img src="images/lolly3.jpeg" alt="Lolly having a chat">
-        <img src="images/lolly4.jpeg" alt="Lolly eating ice cream under a tree">
-        <img src="images/lolly5.jpeg" alt="Lolly angrily cleaning">
-        <img src="images/lolly6.jpeg" alt="Lolly sitting on a couch with an ice cream in hand">
-        <img src="images/lolly7.jpeg" alt="Lolly observing a butterfly">
-        <img src="images/lolly8.jpeg" alt="Lolly floating in the sea">
-        <img src="images/lolly9.jpeg" alt="Lolly enjoying a hot coffee">
+    <div class="pagesplit">
+      <div class="topsinfo" >
+              <img class="imginfo" src="images/Lolly.png" alt="Full body image of Lolly">
+              <div class="textboxtwo">
+                  <p> Lolly is a cat with a normal personality. Her name is also Bonbon. Singing is her hobby.</p>
+                <table class="info">
+                  <tbody>
+                  <tr>
+                  <td>
+                    <img class="icons" src="images/nameicon.png" alt="Icon for the name category">
+                    Name:
+                  </td>
+                  <td>Lolly</td>
+                  </tr>
+                  <tr>
+                  <td>
+                    <img class="icons" src="images/birthdayicon.png" alt="Icon for the birthday category">
+                    Birthday:
+                  </td>
+                  <td>Mar 27th</td>
+                  </tr>
+                  <tr>
+                  <td>
+                    <img class="icons" src="images/personalityicon.png" alt="Icon for the personality category">
+                    Personality:
+                  </td>
+                  <td>Normal</td>
+                  </tr>
+                  <tr>
+                  <td>
+                    <img class="icons" src="images/gendericon.png" alt="Icon for the gender category">
+                    Gender:
+                  </td>
+                  <td>Female</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p> Quote</p>
+                  <p>"Laughter is the best medicine."</p> 
+              </div>
+        </div>
+      <div class="gallery">
+          <h2 class="galleryname">Gallery</h2>
+          <img src="images/lolly1.png" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Lolly stomping around and looking angry">
+          <img src="images/lolly2.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Lolly drinking lemonade">
+          <img src="images/lolly3.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Lolly having a chat">
+          <img src="images/lolly4.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Lolly eating ice cream under a tree">
+          <img src="images/lolly5.jpeg" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="Lolly angrily cleaning">
+          <img src="images/lolly6.jpeg" onclick="openModal();currentSlide(6)" class="hover-shadow"alt="Lolly sitting on a couch with an ice cream in hand">
+          <img src="images/lolly7.jpeg" onclick="openModal();currentSlide(7)" class="hover-shadow"alt="Lolly observing a butterfly">
+          <img src="images/lolly8.jpeg" onclick="openModal();currentSlide(8)" class="hover-shadow"alt="Lolly floating in the sea">
+          <img src="images/lolly9.jpeg" onclick="openModal();currentSlide(9)" class="hover-shadow"alt="Lolly enjoying a hot coffee">
+          <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <div class="numbertext">1 / 9</div>
+                <img src="images/lolly1.png" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">2 / 9</div>
+                <img src="images/lolly2.jpeg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">3 / 9</div>
+                <img src="images/lolly3.jpeg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">4 / 9</div>
+                <img src="images/lolly4.jpeg" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">5 / 9</div>
+                <img src="images/lolly5.jpeg" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">6 / 9</div>
+                <img src="images/lolly6.jpeg" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">7 / 9</div>
+                <img src="images/lolly7.jpeg" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">8 / 9</div>
+                <img src="images/lolly8.jpeg" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">9 / 9</div>
+                <img src="images/lolly9.jpeg" style="width:100%">
+              </div>
+          
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
     </div>
+  </main>
+  <script src="js/project1.js"></script>
+  <footer>
+    <p>
+        &copy; Fay Piyathassrikul<br>
+        Image attributes: Pinterest, Nookpedia</p>
+  </footer>

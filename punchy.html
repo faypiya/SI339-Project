@@ -26,14 +26,115 @@
     <hr>
     <h1 id="skip">Punchy</h1>
     <br>
-    <div class="gallery">
-        <img src="images/punchy1.jpeg" alt="Punchy in wearing blue bunny ears">
-        <img src="images/punchy2.jpeg" alt="Punchy crying">
-        <img src="images/punchy3.jpeg" alt="Punchy posing in front of camera">
-        <img src="images/punchy4.jpeg" alt="Punchy wearing a Mario costume">
-        <img src="images/punchy5.jpeg" alt="A shy Punchy">
-        <img src="images/punchy6.jpeg" alt="Punchy sitting at a table">
-        <img src="images/punchy7.jpeg" alt="Punchy through a fish eye lens">
-        <img src="images/punchy8.jpeg" alt="Punchy playing a cop">
-        <img src="images/punchy9.jpeg" alt="Punchy shrugging">
+    <div class="pagesplit">
+      <div class="topsinfo" >
+        <img class="imginfo" src="images/Punchy.png" alt="Full body image of Punchy">
+        <div class="textboxtwo">
+          <p> Punchy is a lazy cat. He is an easy-going cat and is very friendly.</p>
+          <table class="info">
+            <tbody>
+            <tr>
+            <td>
+              <img class="icons" src="images/nameicon.png" alt="Icon for the name category">
+              Name:
+            </td>
+            <td>Punchy</td>
+            </tr>
+            <tr>
+            <td>
+              <img class="icons" src="images/birthdayicon.png" alt="Icon for the birthday category">
+              Birthday:
+            </td>
+            <td>Apr 11th</td>
+            </tr>
+            <tr>
+            <td>
+              <img class="icons" src="images/personalityicon.png" alt="Icon for the personality category">
+              Personality:
+            </td>
+            <td>Lazy</td>
+            </tr>
+            <tr>
+            <td>
+              <img class="icons" src="images/gendericon.png" alt="Icon for the gender category">
+              Gender:
+            </td>
+            <td>Male</td>
+            </tr>
+            </tbody>
+            </table>
+            <p> Quote</p>
+            <p>"mrmpht"</p> 
+        </div>
+      </div>
+      <div class="gallery">
+        <h2 class="galleryname">Gallery</h2>
+        <img src="images/punchy1.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Punchy wearing blue bunny ears">
+        <img src="images/punchy2.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Punchy crying">
+        <img src="images/punchy3.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Punchy posing for the camera">
+        <img src="images/punchy4.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Punchy wearing a Mario costume">
+        <img src="images/punchy6.jpeg" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="A shy punchy">
+        <img src="images/punchy7.jpeg" onclick="openModal();currentSlide(6)" class="hover-shadow"alt="Punchy sitting at a table">
+        <img src="images/punchy8.jpeg" onclick="openModal();currentSlide(7)" class="hover-shadow"alt="Punchy through a fish eye lense">
+        <img src="images/punchy8.jpeg" onclick="openModal();currentSlide(8)" class="hover-shadow"alt="Punching playing a cop">
+        <img src="images/punchy9.jpeg" onclick="openModal();currentSlide(9)" class="hover-shadow"alt="Punchy shrugging">
+        <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <div class="numbertext">1 / 9</div>
+              <img src="images/punchy1.jpeg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">2 / 9</div>
+              <img src="images/punchy2.jpeg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">3 / 9</div>
+              <img src="images/punchy3.jpeg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">4 / 9</div>
+              <img src="images/punchy4.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">5 / 9</div>
+              <img src="images/punchy5.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">6 / 9</div>
+              <img src="images/punchy6.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">7 / 9</div>
+              <img src="images/punchy7.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">8 / 9</div>
+              <img src="images/punchy8.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">9 / 9</div>
+              <img src="images/punchy9.jpeg" style="width:100%">
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+  </div>
+</main>
+<script src="js/project1.js"></script>
+<footer>
+  <p>
+      &copy; Fay Piyathassrikul<br>
+      Image attributes: Pinterest, Nookpedia</p>
+</footer>

@@ -26,14 +26,115 @@
     <hr>
     <h1 id="skip">Tangy</h1>
     <br>
-    <div class="gallery">
-        <img src="images/Tangy1.jpeg" alt="Tangy looking at a broom">
-        <img src="images/tangy2.jpeg" alt="Tangy fishing happily">
-        <img src="images/tangy3.jpeg" alt="Tangy holding a strawberry umbrella">
-        <img src="images/tangy4.jpeg" alt="Tangy with a coffee cup">
-        <img src="images/tangy5.jpeg" alt="A shy Tangy">
-        <img src="images/tangy6.png" alt="Tangy posing in front of the sea">
-        <img src="images/tangy7.jpeg" alt="Tangy singing on a bridge">
-        <img src="images/tangy8.jpeg" alt="Tangy frowning">
-        <img src="images/tangy9.jpeg" alt="Tangy wearing a pink cap">
+    <div class="pagesplit">
+      <div class="topsinfo" >
+        <img class="imginfo" src="images/Tangy.png" alt="Full body image of Tangy">
+        <div class="textboxtwo">
+            <p> Tangy's personality is peppy. She looks like an orange, which makes sense because her name is short for 'tangerine.'</p>
+          <table class="info">
+            <tbody>
+            <tr>
+            <td>
+              <img class="icons" src="images/nameicon.png" alt="Icon for the name category">
+              Name:
+            </td>
+            <td>Tangy</td>
+            </tr>
+            <tr>
+            <td>
+              <img class="icons" src="images/birthdayicon.png" alt="Icon for the birthday category">
+              Birthday:
+            </td>
+            <td>Jun 17th</td>
+            </tr>
+            <tr>
+            <td>
+              <img class="icons" src="images/personalityicon.png" alt="Icon for the personality category">
+              Personality:
+            </td>
+            <td>Peppy</td>
+            </tr>
+            <tr>
+            <td>
+              <img class="icons" src="images/gendericon.png" alt="Icon for the gender category">
+              Gender:
+            </td>
+            <td>Female</td>
+            </tr>
+            </tbody>
+            </table>
+            <p> Quote</p>
+            <p>"When life gives you lemons, make lemonade!""</p> 
+        </div>
+      </div>
+      <div class="gallery">
+        <h2 class="galleryname">Gallery</h2>
+        <img src="images/Tangy1.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Tangy looking at a broom">
+        <img src="images/tangy2.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Tangy fishing happily">
+        <img src="images/tangy3.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Tangy holding a strawberry umbrella">
+        <img src="images/tangy4.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Tangy with a coffee cup">
+        <img src="images/tangy5.jpeg" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="A shy Tangy">
+        <img src="images/tangy6.png" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="Tangy posing in front of the sea">
+        <img src="images/tangy7.jpeg" onclick="openModal();currentSlide(7)" class="hover-shadow"alt="Tangy singing on a bridge">
+        <img src="images/tangy8.jpeg" onclick="openModal();currentSlide(8)" class="hover-shadow"alt="Tangy frowning">
+        <img src="images/tangy9.jpeg" onclick="openModal();currentSlide(9)" class="hover-shadow"alt="Tangy wearing a pink cap">
+        <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <div class="numbertext">1 / 9</div>
+              <img src="images/Tangy1.jpeg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">2 / 9</div>
+              <img src="images/tangy2.jpeg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">3 / 9</div>
+              <img src="images/tangy3.jpeg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">4 / 9</div>
+              <img src="images/tangy4.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">5 / 9</div>
+              <img src="images/tangy5.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">6 / 9</div>
+              <img src="images/tangy6.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">7 / 9</div>
+              <img src="images/tangy7.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">8 / 9</div>
+              <img src="images/tangy8.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">9 / 9</div>
+              <img src="images/tangy9.jpeg" style="width:100%">
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+  </div>
+</main>
+<script src="js/project1.js"></script>
+<footer>
+  <p>
+      &copy; Fay Piyathassrikul<br>
+      Image attributes: Pinterest, Nookpedia</p>
+</footer>
